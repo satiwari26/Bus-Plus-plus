@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Vehicle related problems that we have in SLO
+1. Cars emit significant amounts of carbon, contributing to the overall increase in carbon emissions in the environment. In addition, the large number of cars on the road leads to traffic congestion, causing longer commute times and hindering productivity. Moreover, cars take up a significant amount of space on roads, parking lots, and garages, which could be used for other purposes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. The limited use of public transportation leads to limited funding, which in turn results in limited bus routes and reduced service to many areas. This can make it difficult for individuals who depend on public transportation to get around and can also contribute to increased traffic congestion.
+
+3. Buses often make unnecessary stops, which can lead to longer commute times and waste valuable time for passengers. Additionally, buses may stop at locations that are empty, rather than adjusting their route to account for changing passenger demand. This can result in inefficiencies in the transportation system and decreased satisfaction for riders.
 
 ## Available Scripts
 

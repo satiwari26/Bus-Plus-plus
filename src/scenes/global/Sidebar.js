@@ -81,14 +81,14 @@ function Sidebar() {
           <Box display='flex' justifyContent = 'center' alignItems = 'center'>
             <img alt = "Profile-user"
               width = '100px'
-              height='100px'
+              height='130px'
               src = {'../../assets/user.jpg'}
               style = {{cursor: "pointer", borderRadius: "50%"}}
             />
           </Box>
 
         <Box textAlign='center'>
-            <Typography variant='h2' color = {colors.grey[100]} fontWeight = "bold" sx = {{m: '10px 0 0 0'}}>Saumitra Tiwari</Typography>
+            <Typography variant='h3' color = {colors.grey[100]} fontWeight = "bold" sx = {{m: '10px 0 0 0'}}>Saumitra Tiwari</Typography>
             <Typography variant='h5' color = {colors.greenAccent[500]}>Bus Plus Premium</Typography>
         </Box>
         </Box>
@@ -129,7 +129,7 @@ function Sidebar() {
           setSelected = {setSelected}
         />
         <Item title='Profile Form' 
-          to = "/form"
+          to = "/contacts"
           icon = {<PeopleOutlinedIcon/>}
           selected = {selected}
           setSelected = {setSelected}
