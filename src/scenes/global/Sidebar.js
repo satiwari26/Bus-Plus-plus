@@ -135,7 +135,7 @@ function Sidebar() {
           setSelected = {setSelected}
         />
         <Item title='FAQ Page'
-          to = "/faq"
+          to = "/FAQ"
           icon = {<HelpOutlinedIcon/>}
           selected = {selected}
           setSelected = {setSelected}
