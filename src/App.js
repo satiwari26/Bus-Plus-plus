@@ -7,12 +7,12 @@ import Dashboard from './scenes/dashboard/Index.jsx';
 import ProfileForm from './scenes/contacts/ProfileForm.js';
 import FAQ from './scenes/FAQ/FAQ.js';
 import ScanScene from "./scenes/Scan/ScanScene.js";
+import PopularPlacesScenes from "./scenes/popularPlaces/PopularPlacesScenes";
 //import Calendar from "./scenes/calendar/Calendar.js";
 /*import Team from './scenes/team';
 import Invoice from './scenes/invoices';
 import Bar from './scenes/bar';
 import Line from './scenes/line';
-import Geography from './scenes/geaography';
 */
 
 function App() {
@@ -33,6 +33,7 @@ function App() {
         <Route path = "/contacts" element = {<ProfileForm/>}/>
         <Route path = "/FAQ" element = {<FAQ/>}/>
         <Route path = "/Scan" element = {<ScanScene/>}/>
+        <Route path = "/popularPlaces" element = {<PopularPlacesScenes/>}/>
         {/*<Route path = "/team" element = {<Team/>}/>
         <Route path = "/calendar" element = {<Calendar/>}/>
         <Route path = "/contacts" element = {<Contacts/>}/>

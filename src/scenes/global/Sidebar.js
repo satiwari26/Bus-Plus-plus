@@ -111,7 +111,7 @@ function Sidebar() {
           setSelected = {setSelected}
         />
         <Item title='Popular places' 
-          to = "/geography"
+          to = "/popularPlaces"
           icon = {<MapOutlinedIcon/>}
           selected = {selected}
           setSelected = {setSelected}
