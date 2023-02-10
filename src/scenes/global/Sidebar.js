@@ -123,7 +123,7 @@ function Sidebar() {
           setSelected = {setSelected}
         />
         <Item title='Scan Your Code' 
-          to = "/bar"
+          to = "/Scan"
           icon = {<PieChartOutlinedIcon/>}
           selected = {selected}
           setSelected = {setSelected}

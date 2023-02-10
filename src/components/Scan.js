@@ -58,7 +58,7 @@ function Scan({isDashboard = false}) {
                 ]
             }}
             arcLinkLabelsSkipAngle={10}
-            arcLinkLabelsTextColor="#333333"
+            arcLinkLabelsTextColor= {colors.grey[100]}
             arcLinkLabelsThickness={2}
             arcLinkLabelsColor={{ from: 'color' }}
             enableArcLabels={false}

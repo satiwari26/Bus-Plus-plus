@@ -6,12 +6,12 @@ import Sidebar from './scenes/global/Sidebar';
 import Dashboard from './scenes/dashboard/Index.jsx';
 import ProfileForm from './scenes/contacts/ProfileForm.js';
 import FAQ from './scenes/FAQ/FAQ.js';
+import ScanScene from "./scenes/Scan/ScanScene.js";
 //import Calendar from "./scenes/calendar/Calendar.js";
 /*import Team from './scenes/team';
 import Invoice from './scenes/invoices';
 import Bar from './scenes/bar';
 import Line from './scenes/line';
-import Pie from './scenes/pie';
 import Geography from './scenes/geaography';
 */
 
@@ -32,12 +32,12 @@ function App() {
         <Route path = "/" element = {<Dashboard/>}/>
         <Route path = "/contacts" element = {<ProfileForm/>}/>
         <Route path = "/FAQ" element = {<FAQ/>}/>
+        <Route path = "/Scan" element = {<ScanScene/>}/>
         {/*<Route path = "/team" element = {<Team/>}/>
         <Route path = "/calendar" element = {<Calendar/>}/>
         <Route path = "/contacts" element = {<Contacts/>}/>
         <Route path = "/invoices" element = {<Invoices/>}/>
         <Route path = "/bar" element = {<Bar/>}/>
-        <Route path = "/pie" element = {<Pie/>}/>
         <Route path = "/line" element = {<Line/>}/>
         <Route path = "/geography" element = {<Geography/>}/>
         */}
