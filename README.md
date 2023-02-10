@@ -5,69 +5,25 @@
 
 3. Buses often make unnecessary stops, which can lead to longer commute times and waste valuable time for passengers. Additionally, buses may stop at locations that are empty, rather than adjusting their route to account for changing passenger demand. This can result in inefficiencies in the transportation system and decreased satisfaction for riders.
 
-## Available Scripts
+## A quick Comparison
 
-In the project directory, you can run:
+From Cal Poly's campus to Target on '1190 LOS OSOS Valley Rd,
+1. Car takes about 9 mins to get there.
+2. With bike it roughly takes about 15 mins to get there.
+3. With Transit it takes about 30 mins to get there. 
 
-### `npm start`
+### Solution
+1. Increase use of mass transit and other public transportation alternatives.
+2. Introduce a bus-on-demand system for faster, more efficient bus rides.
+3. Induce demand for public transportation with a value-add incentive program.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Market Viability
+1. Growing market indicates sufficient interest and demand
+2. Robustness of program is evidenced in its survival of the pandemic, with a smaller percent reduction in use than traditional transport solutions.
+3. Bus+ has additional incentive program to further encourage use.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Competetion
+Carpooling with Uber and Lyft
+1. Capacity is limited.
+2. Pricing is subjected to demand and highly variable.
+3. Lack of incentive program means no ancillary benifits to local community.
