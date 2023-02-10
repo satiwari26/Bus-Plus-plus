@@ -27,3 +27,8 @@ Carpooling with Uber and Lyft
 1. Capacity is limited.
 2. Pricing is subjected to demand and highly variable.
 3. Lack of incentive program means no ancillary benifits to local community.
+
+## Application layout
+1. A complete modern UI with easy access to each components.
+2. Some components such as book your ride and Points accumulated have been prioritized and need further devlopment along with the backend.
+3. Only front-end has been designed so far with React frame-work to improve the UI and UX. 
