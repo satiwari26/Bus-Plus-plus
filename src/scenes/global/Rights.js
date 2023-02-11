@@ -7,7 +7,7 @@ function Rights() {
     const colors = tokens(theme.palette.mode);
   return (
     <Box>
-    <Typography color = {colors.greenAccent[500]} variant = "h5">
+    <Typography color = {colors.greenAccent[500]} variant = "h5" fontStyle='italic'>
     <FaCopyright/>2023 Saumitra Tiwari
     </Typography>
     </Box>
