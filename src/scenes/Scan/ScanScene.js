@@ -7,7 +7,7 @@ import React from 'react'
 function ScanScene() {
   return (
     <Box m='20px'>
-    <Header title = 'Scan or Redeem your points' subtitle = "Your accumulated points" />
+    <Header title = 'Scan or Redeem your points' subtitle = "Your accumulated points: 34,500" />
     <Box height='75vh'>
     <Scan/>
     </Box>

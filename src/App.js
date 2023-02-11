@@ -8,6 +8,7 @@ import ProfileForm from './scenes/contacts/ProfileForm.js';
 import FAQ from './scenes/FAQ/FAQ.js';
 import ScanScene from "./scenes/Scan/ScanScene.js";
 import PopularPlacesScenes from "./scenes/popularPlaces/PopularPlacesScenes";
+import Rights from "./scenes/global/Rights";
 //import Calendar from "./scenes/calendar/Calendar.js";
 /*import Team from './scenes/team';
 import Invoice from './scenes/invoices';
@@ -44,6 +45,7 @@ function App() {
         */}
 
       </Routes>
+      <Rights/>
       </main>
     </div>
     </ThemeProvider>

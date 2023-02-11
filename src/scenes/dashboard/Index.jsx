@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from '../../components/Header';
-import { Box, Button, IconButton, Typography, typography, useTheme } from '@mui/material';
+import { Box, Button, IconButton, Typography, useTheme } from '@mui/material';
 import { tokens } from '../../theme';
 import DownloadOutlinedIcon  from '@mui/icons-material/DownloadOutlined';
 import EmailIcon  from '@mui/icons-material/Email';
-import PointOfSaleIcon  from '@mui/icons-material/PointOfSale';
+//import PointOfSaleIcon  from '@mui/icons-material/PointOfSale';
 import PersonAddIcon  from '@mui/icons-material/PersonAdd';
 import TrafficIcon  from '@mui/icons-material/Traffic';
 import Scan from '../../components/Scan.js'
 import PopularPlaces from '../../components/PopularPlaces.js';
 import StatBox from '../../components/StatBox';
-import ProgressCircle from '../../components/ProgressCircle';
+//import ProgressCircle from '../../components/ProgressCircle';
 
 function Dashboard() {
   const theme = useTheme();
@@ -75,8 +75,32 @@ function Dashboard() {
             </Box>
             </Box>
 
+          {/*Popular places on the Dashboard */}
+          <Box gridColumn='span 12' gridRow='span 3' backgroundColor = {colors.primary[400]}>
+          <Box mt = '25px' p = '0 30px' display='flex' justifyContent='space-between' alignItems='center'>
+            <Box>
+                <Typography variant='h5' fontWeight='600' color = {colors.grey[100]}>
+                  New Places visited
+                </Typography>
+                <Typography variant='h3' fontWeight='500' color = {colors.greenAccent[500]}>
+                  128
+                </Typography>
+            </Box>
+
+            <Box>
+              <IconButton>
+                <DownloadOutlinedIcon sx = {{fontSize: '26px', color: colors.greenAccent[500]}}/>
+              </IconButton>
+            </Box>
+          </Box>
+
+          <Box height = '400px' >
+                <PopularPlaces />
+          </Box>
+          </Box>
+
+
         </Box>
-        
     </Box>
   )
 }
