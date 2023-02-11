@@ -1,5 +1,5 @@
 import React from 'react'
-import React from 'react';
+
 import {Box, useTheme, Typography} from '@mui/material';
 import {tokens} from '../theme.js';
 import ProgressCircle from './ProgressCircle.js';
@@ -18,6 +18,8 @@ function StatBox({title,subtitle,icon,progress,increase}) {
         <Box>
             <ProgressCircle progress={progress}/>
         </Box>
+        </Box>
+        
         <Box display='flex' justifyContent='space-between'>
         <Typography variant='h5' sx = {{color: colors.greenAccent[500]}}>
                 {subtitle}
@@ -27,7 +29,7 @@ function StatBox({title,subtitle,icon,progress,increase}) {
                 {increase}
             </Typography>
         </Box>
-        </Box>
+        
 
     </Box>
   )
