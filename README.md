@@ -28,7 +28,15 @@ Carpooling with Uber and Lyft
 2. Pricing is subjected to demand and highly variable.
 3. Lack of incentive program means no ancillary benifits to local community.
 
-## Application layout
+### Application layout
 1. A complete modern UI with easy access to each components.
 2. Some components such as book your ride and Points accumulated have been prioritized and need further devlopment along with the backend.
 3. Only front-end has been designed so far with React frame-work to improve the UI and UX. 
+
+## Fastest and most optimal path of the Buses routes
+1. The main problem with the buses is that there path is fixed and they cover each stops at a given fixed time.
+2. To solve this issue I'm focusing on the model that would pre sort the location of the users based on their prebookings(starting locations and destinations).
+3. By the number of users given at a certain time and within certain range of the area, we find the closest dynamic stops for them and pick them up from that location.
+4. Using the A* algorithm we will find the shortest path to the destination and will try to connect the other stops as well. 
+5. There are number of variables that is needed to be addressed here, for example how many stops can/should we cover from point A to point B?, how big of a range of area should we check for users such that it becomes easy for them to access the ride, finding the shortest path or covering the maximum stops which issue to focus first and when?
+6. Currently working on this model right now and would require some further assistances.
