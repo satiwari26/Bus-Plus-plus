@@ -46,7 +46,7 @@ This component gives users access to make the changes to their existing profile.
 
 Note: Some of the front-end components are still being developed and there is still a significant amount of work to be done on the backend. The API calls made at this point are sourced from the API placeholder.
 
-##An initial glimpse of the prototype.
+## An initial glimpse of the prototype.
 ![prototype](public/assets/protoType.gif)
 
 ## Fastest and most optimal path of the Buses routes
