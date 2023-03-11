@@ -34,7 +34,7 @@ Modern UI design with easy access of all the components at one place.
 ![DashBoard](public/assets/Dashboard.png)
 ### 2. Popular Places
 The layout shows the most visited and popular places in SLO, the city layout and backend is currently in process so currently displaying a world map as a placeholder.
-![Popuar Places](public/assets/popular place.png)
+![PopularPlaces](public/assets/popular place.png)
 ### 3. Points accumulated and redeem Section
 This feature is responsible for monitoring your ride points as well as the number of points that have been redeemed during your most recent visit.
 ![Points redeem](public/assets/pointsRedeem.png)
