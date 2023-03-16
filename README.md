@@ -28,10 +28,26 @@ Carpooling with Uber and Lyft
 2. Pricing is subjected to demand and highly variable.
 3. Lack of incentive program means no ancillary benifits to local community.
 
-### Application layout
-1. A complete modern UI with easy access to each components.
-2. Some components such as book your ride and Points accumulated have been prioritized and need further devlopment along with the backend.
-3. Only front-end has been designed so far with React frame-work to improve the UI and UX. 
+## Application layout/design
+### 1. Dashboard
+Modern UI design with easy access of all the components at one place.
+![DashBoard](public/assets/Dashboard.png)
+### 2. Popular Places
+The layout shows the most visited and popular places in SLO, the city layout and backend is currently in process so currently displaying a world map as a placeholder.
+![PopularPlaces](public/assets/popularPlace.png)
+### 3. Points accumulated and redeem Section
+This feature is responsible for monitoring your ride points as well as the number of points that have been redeemed during your most recent visit.
+![Points redeem](public/assets/pointsRedeem.png)
+### 4. Profile Form
+This component gives users access to make the changes to their existing profile.
+![Profile update](public/assets/profileForm.png)
+### 5. FQA component
+![FAQ](public/assets/FAQ.png)
+
+Note: Some of the front-end components are still being developed and there is still a significant amount of work to be done on the backend. The API calls made at this point are sourced from the API placeholder.
+
+## An initial glimpse of the prototype.
+![prototype](public/assets/protoType.gif)
 
 ## Fastest and most optimal path of the Buses routes
 1. The main problem with the buses is that there path is fixed and they cover each stops at a given fixed time.
