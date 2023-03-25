@@ -33,7 +33,7 @@ Carpooling with Uber and Lyft
 Modern UI design with easy access of all the components at one place.
 ![DashBoard](public/assets/Dashboard.png)
 ### 2. Popular Places
-The layout shows the most visited and popular places in SLO, the city layout and backend is currently in process so currently displaying a world map as a placeholder.
+The layout shows the most visited and popular places in SLO, the city layout and backend is currently in process of devlopment so currently displaying a world map as a placeholder.
 ![PopularPlaces](public/assets/popularPlace.png)
 ### 3. Points accumulated and redeem Section
 This feature is responsible for monitoring your ride points as well as the number of points that have been redeemed during your most recent visit.
